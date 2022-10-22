@@ -6,6 +6,41 @@
     padding: 8em;
 } */
 body{
-    background-color: black;
+    background-color: rgb(3, 8, 29);
     background: linear-gradient(to top, transparent);
+}
+header{
+    font-family: 'Poppins';font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+}
+header ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+header .image{
+    content: '';
+    position: absolute;
+    width: -webkit-fill-available;
+    top: 0;
+    left: 0;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
 }
