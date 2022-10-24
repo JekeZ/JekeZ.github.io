@@ -3,7 +3,7 @@ section #alkuteksti{
     position: absolute;
     z-index: 2;
     color: #fff;
-    right: 13%;
+    right: 4%;
     top: 10px;
 }
 body{
@@ -130,16 +130,27 @@ section .logo{
     font-size: 1em;
     color: #fff;
 }
-.link ul{
+.link ol{
     border-radius: 10px;
     background-color: rgba(102, 51, 153, 0.116);
     list-style: none;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.459);
     border-style: double;
+    position: absolute;
+    right: 45%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
 }
 .link{
     width: 300px;
-    align-items: center;
     max-width: 200px;
     min-width: 100px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    right: 40%;
+    padding-right: 48px;
+    text-align: center;
+    z-index: 1;
 }
