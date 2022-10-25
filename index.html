@@ -20,7 +20,16 @@
             <h1 id="alkuteksti">Portfolio </h3>
             <img class="image" src="ylakuva.jpg" alt="ylakuva">
             <img class="logo" src="Untitled.png" alt="logo">
+            <img src="white-stars-transparent-background-9.png" id="stars" alt="stars">
         </section>
+        <script>
+            let stars = document.getElementById('stars');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value + 'px';
+            })
+        </script>
 
         <div class="boxes">
             <div class="box1">
@@ -37,14 +46,17 @@
                     Video editing<br>
                     Blender<br>
                     React<br>
-                    Css/Html
+                    Css/Html<br>
+                    JavaScript
                 </p>
             </div>
-        </div>
-        <div class="link">
-            <ol>
-                <li><a href="https://github.com/JekeZ" style="text-decoration: none;">To my GitHub</a></li>
-            </ol>
+            <div class="box3">
+                <h2>My Work</h2>
+                <h1>-------------</h1>
+                    <ol>
+                        <li><a href="https://github.com/JekeZ" style="text-decoration: none;">To my GitHub</a></li>
+                    </ol>
+            </div>
         </div>
     </body>
 </html>

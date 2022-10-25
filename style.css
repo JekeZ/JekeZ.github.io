@@ -82,6 +82,17 @@ section .logo{
     top: -29em;
     right: 24em;
 }
+section #stars{
+    position: absolute;
+    z-index: 10;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 400px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
 .boxes{
     display: flex;
     justify-content: space-around;
@@ -130,27 +141,27 @@ section .logo{
     font-size: 1em;
     color: #fff;
 }
-.link ol{
-    border-radius: 10px;
-    background-color: rgba(102, 51, 153, 0.116);
-    list-style: none;
-    color: rgba(255, 255, 255, 0.459);
-    border-style: double;
-    position: absolute;
-    right: 45%;
-    padding: 10px;
-    text-decoration: none;
-    font-size: large;
-}
-.link{
-    width: 300px;
-    max-width: 200px;
-    min-width: 100px;
-    text-decoration: none;
-    color: #fff;
-    position: absolute;
-    right: 40%;
-    padding-right: 48px;
+.box3{
     text-align: center;
-    z-index: 1;
+    border-radius: 10px;
+    border-style: double;
+    color: rgba(255, 255, 255, 0.459);
+    max-width: 400px;
+    min-width: 400px;
+
+}
+.box3 h1{
+    padding: 10px;
+}
+.box3 h2{
+    color: #fff;
+    font-size: 3em;
+}
+.box3 ol li a{
+    color: #fff;
+    text-align: center;
+}
+.box3 ol{
+    text-decoration: underline;
+    list-style: none;
 }
