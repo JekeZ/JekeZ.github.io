@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+*
+{
+    scroll-behavior: smooth;
+}
 section #alkuteksti{
     position: absolute;
     z-index: 2;
@@ -9,6 +13,7 @@ section #alkuteksti{
 body{
     background-color: rgb(3, 8, 29);
     font-family: 'Poppins';
+    overflow-x: hidden;
 }
 header{
     font-family: 'Poppins';font-size: 22px;
@@ -34,6 +39,7 @@ header ul li{
     list-style: none;
     color: white;
     z-index: 1000;
+    min-width: 100px;
 }
 section{
     position: static;
@@ -82,20 +88,25 @@ section .logo{
     top: -29em;
     right: 24em;
 }
-section #stars{
+#stars{
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     max-height: 100%;
     max-width: 100%;
     min-width: 400px;
-    background-size: cover;
-    background-position: center;
     overflow: hidden;
-    
+    margin-top: -7%;
+}
+section #stars{
+    position: absolute;
 }
 .boxes{
+    scroll-snap-type: proximity;
+    overflow-y: scroll;
     display: flex;
     justify-content: space-around;
+    z-index: 10;
+    color: #fff;
 }
 .box1 h2{
     color: #fff;
@@ -164,4 +175,22 @@ section #stars{
 .box3 ol{
     text-decoration: underline;
     list-style: none;
+}
+.Work h1{
+    color: #fff;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Work{
+    scroll-snap-type: proximity;
+    overflow-y: scroll;
+
+}
+.Work #video{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
 }

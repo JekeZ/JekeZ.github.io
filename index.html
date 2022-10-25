@@ -20,14 +20,14 @@
             <h1 id="alkuteksti">Portfolio </h3>
             <img class="image" src="ylakuva.jpg" alt="ylakuva">
             <img class="logo" src="Untitled.png" alt="logo">
-            <img src="white-stars-transparent-background-9.png" id="stars" alt="stars">
+            <img src="stars.png" id="stars" alt="stars">
         </section>
         <script>
             let stars = document.getElementById('stars');
 
             window.addEventListener('scroll', function(){
                 let value = window.scrollY;
-                stars.style.left = value + 'px';
+                stars.style.top = value * .40 + 'px';
             })
         </script>
 
@@ -43,11 +43,11 @@
                 <h2>My Experience</h2>
                 <h1>-------------</h1>
                 <p>
-                    Video editing<br>
+                    JavaScript<br>
                     Blender<br>
                     React<br>
                     Css/Html<br>
-                    JavaScript
+                    Video editing
                 </p>
             </div>
             <div class="box3">
@@ -57,6 +57,11 @@
                         <li><a href="https://github.com/JekeZ" style="text-decoration: none;">To my GitHub</a></li>
                     </ol>
             </div>
+        </div>
+        <div class="Work">
+            <h1>Work</h1>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/louWxXWp_Zg" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </body>
 </html>
