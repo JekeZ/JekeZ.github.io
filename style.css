@@ -8,6 +8,8 @@ header #alkuteksti{
     z-index: 2;
     color: black;
     right: 2%;
+    margin-bottom: 0px;
+    top: -13px;
 }
 header #alkuteksti:hover{
     transform: scale(0.9, 0.9);
@@ -50,7 +52,6 @@ header ul li{
 section{
     position: static;
     width: -webkit-fill-available;
-    height: 38em;
     display: flex;
     justify-content: left;
     border-bottom: inset;
@@ -58,19 +59,19 @@ section{
 section #Jere{
     position: relative;
     font-size: 5em;
-    top: 30%;
+    top: 180px;
     left: 10%;
 }
 section #Aronsalo{
     position: relative;
     font-size: 5em;
-    top: 40%;
+    top: 3em;
     left: 0%;
 }
 section #alateksti{
     position: relative;
-    top: 63%;
-    right: 420px;
+    top: 21em;
+    right: 421px;
     background: black;
     color: #fff;
     margin-bottom: 29%;
@@ -173,7 +174,7 @@ header ul li a{
     border-style: inset;
 }
 .Work h1{
-    color: #fff;
+    color: rgb(0, 0, 0);
     position: relative;
     justify-content: center;
     align-items: center;
@@ -189,4 +190,10 @@ header ul li a{
     align-items: center;
     display: flex;
     position: relative;
+    left: 35%;
+}
+.aboutme{
+    background-color: black;
+    color: #fff;
+    text-align: center;
 }
