@@ -196,4 +196,37 @@ header ul li a{
     background-color: black;
     color: #fff;
     text-align: center;
+    z-index: 1;
+    position: relative;
+    height: 34em;
+    margin-top: 60px;
+}
+.koodikuva{
+    z-index: -1;
+    margin-top: 24px;
+    position: relative;
+    opacity: 0.2;
+    height: 500px;
+    width: 500px;
+}
+.aboutme h2{
+    position: relative;
+    bottom: 20em;
+}
+.aboutme p{
+    position: relative;
+    bottom: 27em;
+}
+.footer{
+    margin-top: 40px;
+    background-color: black;
+    color: #fff;
+    padding-bottom: 25em;
+    position: relative;
+}
+.footer .Toptext{
+
+    left: 10%;
+    position: relative;
+    top: 7em;
 }
