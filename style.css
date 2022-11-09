@@ -3,7 +3,7 @@
 {
     scroll-behavior: smooth;
 }
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 2440px){
     header #alkuteksti{
         position: relative;
         z-index: 2;
@@ -58,8 +58,8 @@
     section #Jere{
         position: relative;
         font-size: 5em;
-        top: 180px;
-        left: 9.5%;
+        top: 2.2em;
+        left: 9%;
     }
     section #Aronsalo{
         position: relative;
@@ -191,9 +191,9 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        position: static;
-        left: 35%;
+        position: relative;
         padding: 10, 10, 10;
+        left: 33%;
     }
     .aboutme{
         background-color: black;
@@ -256,7 +256,7 @@
 }
 
 
-@media screen and (min-width: 200px){
+@media screen and (min-width: 200px) and (max-width: 768px){
     .koodikuva{
         margin-top: 24px;
         position: relative;
