@@ -11,17 +11,13 @@ header #alkuteksti{
     margin-bottom: 0px;
     top: -13px;
 }
-header #alkuteksti:hover{
-    transform: scale(0.9, 0.9);
-    transition: 0.2s;
-}
 body{
     background-color: rgb(255, 255, 255);
     font-family: 'Poppins';
     overflow-x: hidden;
 }
 header{
-font-family: 'Poppins';
+    font-family: 'Poppins';
     font-size: 22px;
     position: sticky;
     top: 0;
@@ -60,7 +56,7 @@ section #Jere{
     position: relative;
     font-size: 5em;
     top: 180px;
-    left: 10%;
+    left: 9.5%;
 }
 section #Aronsalo{
     position: relative;
@@ -101,6 +97,7 @@ header ul li a{
     z-index: -1;
     position: static;
     font-size: 3em;
+    border-radius: 10px;
 }
 .box1 p{
     font-size: 1em;
@@ -126,12 +123,14 @@ header ul li a{
     color: rgba(0, 0, 0, 0.459);
     max-width: 400px;
     min-width: 400px;
+    border-radius: 6px;
 }
 .box2 h2{
     color: #fff;
     background: rgb(0, 0, 0);
     position: static;
     font-size: 3em;
+    border-radius: 10px;
 }
 .box2 h2:hover{
     transform: scale(1.1, 1.1);
@@ -158,6 +157,7 @@ header ul li a{
     color: #fff;
     font-size: 3em;
     background: black;
+    border-radius: 10px;
 }
 .box3 ol li a{
     color: rgb(0, 0, 0);
@@ -221,12 +221,28 @@ header ul li a{
     margin-top: 40px;
     background-color: black;
     color: #fff;
-    padding-bottom: 25em;
+    padding-bottom: 19em;
     position: relative;
 }
-.footer .Toptext{
-
-    left: 10%;
+.footer .Contact{
+    font-size: 21px;
+    left: 30%;
     position: relative;
-    top: 7em;
+    top: 4em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    gap: 1em;
+    place-items: center;
+    position: relative;
+    left: 41%;
+    top: 10em;
+}
+input, textarea{
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.274);
+    border: 2px solid;
+    color: #fff;
 }
