@@ -3,254 +3,482 @@
 {
     scroll-behavior: smooth;
 }
-header #alkuteksti{
-    position: relative;
-    z-index: 2;
-    color: black;
-    right: 2%;
-    margin-bottom: 0px;
-    top: -13px;
-}
-body{
-    background-color: rgb(255, 255, 255);
-    font-family: 'Poppins';
-    overflow-x: hidden;
-}
-header{
-    font-family: 'Poppins';
-    font-size: 22px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-    background-color: #fff;
-    border-bottom: groove;
-}
-header ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    z-index: 1000;
-    cursor: pointer;
-}
-header ul li{
-    text-decoration: none;
-    list-style: none;
-    color: rgb(0, 0, 0);
-    z-index: 1000;
-    min-width: 100px;
-}
-section{
-    width: 100%;
-    position: static;
-    width: -webkit-fill-available;
-    display: flex;
-    justify-content: left;
-    border-bottom: inset;
-    height: 35em;
-}
-section #Jere{
-    position: relative;
-    font-size: 5em;
-    top: 180px;
-    left: 9.5%;
-}
-section #Aronsalo{
-    position: relative;
-    font-size: 5em;
-    top: 3em;
-    left: 0%;
-}
-section #alateksti{
-    position: relative;
-    top: 21em;
-    right: 421px;
-    background: black;
-    color: #fff;
-    border-radius: 6px;
-    padding: 7px;
-    height: 27px;
-    margin-bottom: 10em;
-}
-header ul li a{
-    text-decoration: none;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    font-size: 100%;
-    font-weight: bold;
-}
-.boxes{
-    scroll-snap-type: proximity;
-    overflow-y: scroll;
-    display: flex;
-    justify-content: space-around;
-    z-index: 10;
-    color: rgb(0, 0, 0);
-    padding: 2%;
-}
-.box1 h2{
-    color: #fff;
-    /* padding: 100px; */
-    background: rgb(0, 0, 0);
-    z-index: -1;
-    position: static;
-    font-size: 3em;
-    border-radius: 10px;
-}
-.box1 p{
-    font-size: 1em;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    border-right: 10px;
-    border-style: inset;
-}
-.box1{
-    text-align: center;
-    /* border-radius: 20px; */
-    /* border-style: ridge; */
-    color: rgba(0, 0, 0, 0.459);
-    max-width: 400px;
-    min-height: 100px;
-    min-width: 400px;
-}
-.box1 h1{
-    padding: 10px;
-}
-.box2{
-    text-align: center;
-    color: rgba(0, 0, 0, 0.459);
-    max-width: 400px;
-    min-width: 400px;
-    border-radius: 6px;
-}
-.box2 h2{
-    color: #fff;
-    background: rgb(0, 0, 0);
-    position: static;
-    font-size: 3em;
-    border-radius: 10px;
-}
-.box2 h2:hover{
-    transform: scale(1.1, 1.1);
-    transition: 0.5s;
-}
-.box2 p{
-    font-size: 1em;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    border-right: 10px;
-    border-style: inset;
-}
-.box3{
-    text-align: center;
-    color: rgba(0, 0, 0, 0.459);
-    max-width: 400px;
-    min-width: 400px;
+@media screen and (min-width: 1000px){
+    header #alkuteksti{
+        position: relative;
+        z-index: 2;
+        color: black;
+        right: 2%;
+        margin-bottom: 0px;
+        top: -13px;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        font-family: 'Poppins';
+        overflow-x: hidden;
+    }
+    header{
+        font-family: 'Poppins';
+        font-size: 22px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        background-color: #fff;
+        border-bottom: groove;
+    }
+    header ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        z-index: 1000;
+        cursor: pointer;
+    }
+    header ul li{
+        text-decoration: none;
+        list-style: none;
+        color: rgb(0, 0, 0);
+        z-index: 1000;
+        min-width: 100px;
+    }
+    section{
+        width: 100%;
+        position: static;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: left;
+        border-bottom: inset;
+        height: 35em;
+    }
+    section #Jere{
+        position: relative;
+        font-size: 5em;
+        top: 180px;
+        left: 9.5%;
+    }
+    section #Aronsalo{
+        position: relative;
+        font-size: 5em;
+        top: 3em;
+        left: 0%;
+    }
+    section #alateksti{
+        position: relative;
+        top: 21em;
+        right: 421px;
+        background: black;
+        color: #fff;
+        border-radius: 6px;
+        padding: 7px;
+        height: 27px;
+        margin-bottom: 10em;
+    }
+    header ul li a{
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 100%;
+        font-weight: bold;
+    }
+    .boxes{
+        scroll-snap-type: proximity;
+        overflow-y: scroll;
+        display: flex;
+        justify-content: space-around;
+        z-index: 10;
+        color: rgb(0, 0, 0);
+        padding: 2%;
+    }
+    .box1 h2{
+        color: #fff;
+        /* padding: 100px; */
+        background: rgb(0, 0, 0);
+        z-index: -1;
+        position: static;
+        font-size: 3em;
+        border-radius: 10px;
+    }
+    .box1 p{
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
+    }
+    .box1{
+        text-align: center;
+        /* border-radius: 20px; */
+        /* border-style: ridge; */
+        color: rgba(0, 0, 0, 0.459);
+        max-width: 400px;
+        min-height: 100px;
+        min-width: 400px;
+    }
+    .box1 h1{
+        padding: 10px;
+    }
+    .box2{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.459);
+        max-width: 400px;
+        min-width: 400px;
+        border-radius: 6px;
+    }
+    .box2 h2{
+        color: #fff;
+        background: rgb(0, 0, 0);
+        position: static;
+        font-size: 3em;
+        border-radius: 10px;
+    }
+    .box2 h2:hover{
+        transform: scale(1.1, 1.1);
+        transition: 0.5s;
+    }
+    .box2 p{
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
+    }
+    .box3{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.459);
+        max-width: 400px;
+        min-width: 400px;
 
+    }
+    .box3 h1{
+        padding: 10px;
+    }
+    .box3 h2{
+        color: #fff;
+        font-size: 3em;
+        background: black;
+        border-radius: 10px;
+    }
+    .box3 ol li a{
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .box3 ol{
+        text-decoration: underline;
+        list-style: none;
+        font-weight: bold;
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
+    }
+    .Work h1{
+        color: rgb(255, 255, 255);
+        position: relative;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+        width: 8em;
+        left: 43%;
+        border-radius: 10px;
+    }
+    .Work #video{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: static;
+        left: 35%;
+        padding: 10, 10, 10;
+    }
+    .aboutme{
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+        height: 34em;
+        margin-top: 60px;
+        width: 100%;
+    }
+    .aboutme .koodikuva{
+        z-index: -1;
+        margin-top: 24px;
+        position: relative;
+        opacity: 0.2;
+        height: 500px;
+        width: 500px;
+    }
+
+    .aboutme h2{
+        position: relative;
+        bottom: 20em;
+    }
+    .aboutme p{
+        position: relative;
+        bottom: 27em;
+    }
+    .footer{
+        margin-top: 40px;
+        background-color: black;
+        color: #fff;
+        padding-bottom: 19em;
+        position: relative;
+        width: 100%;
+    }
+    .footer .Contact{
+        font-size: 21px;
+        left: -1%;
+        position: relative;
+        top: 4em;
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+        gap: 1em;
+        place-items: center;
+        position: relative;
+        left: 41%;
+        top: 10em;
+    }
+    input, textarea{
+        padding: 1.5em;
+        background: rgba(255, 255, 255, 0.274);
+        border: 2px solid;
+        color: #fff;
+    }
 }
-.box3 h1{
-    padding: 10px;
-}
-.box3 h2{
-    color: #fff;
-    font-size: 3em;
-    background: black;
-    border-radius: 10px;
-}
-.box3 ol li a{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-.box3 ol{
-    text-decoration: underline;
-    list-style: none;
-    font-weight: bold;
-    font-size: 1em;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    border-right: 10px;
-    border-style: inset;
-}
-.Work h1{
-    color: rgb(255, 255, 255);
-    position: relative;
-    justify-content: center;
-    display: flex;
-    background-color: black;
-    width: 8em;
-    left: 43%;
-    border-radius: 10px;
-}
-.Work{
 
 
-}
-.Work #video{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: static;
-    left: 35%;
-}
-.aboutme{
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    height: 34em;
-    margin-top: 60px;
-    width: 100%;
-}
-.koodikuva{
-    z-index: -1;
-    margin-top: 24px;
-    position: relative;
-    opacity: 0.2;
-    height: 500px;
-    width: 500px;
-}
-.aboutme h2{
-    position: relative;
-    bottom: 20em;
-}
-.aboutme p{
-    position: relative;
-    bottom: 27em;
-}
-.footer{
-    margin-top: 40px;
-    background-color: black;
-    color: #fff;
-    padding-bottom: 19em;
-    position: relative;
-    width: 100%;
-}
-.footer .Contact{
-    font-size: 21px;
-    left: -1%;
-    position: relative;
-    top: 4em;
-    text-align: center;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    width: 20em;
-    gap: 1em;
-    place-items: center;
-    position: relative;
-    left: 41%;
-    top: 10em;
-}
-input, textarea{
-    padding: 1.5em;
-    background: rgba(255, 255, 255, 0.274);
-    border: 2px solid;
-    color: #fff;
+@media screen and (min-width: 200px){
+    .koodikuva{
+        margin-top: 24px;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        position: static;
+        display: flex;
+        justify-content: left;
+        border-bottom: inset;
+        height: 35em;
+        margin: 0 auto;
+    }
+    input, textarea{
+        padding: 1.5em;
+        background: rgba(255, 255, 255, 0.274);
+        border: 2px solid;
+        color: #fff;
+    }
+    header #alkuteksti{
+        display: none;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        font-family: 'Poppins';
+        overflow-x: hidden;
+    }
+    header{
+        font-family: 'Poppins';
+        font-size: 22px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        background-color: #fff;
+        border-bottom: groove;
+    }
+    header ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        z-index: 1000;
+        cursor: pointer;
+    }
+    header ul li{
+        text-decoration: none;
+        list-style: none;
+        color: rgb(0, 0, 0);
+        z-index: 1000;
+        min-width: 100px;
+    }
+    section{
+        width: 100%;
+        position: static;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: left;
+        border-bottom: inset;
+        height: 35em;
+    }
+    section #Jere{
+        position: relative;
+        font-size: 4em;
+        top: 190px;
+        left: 0.5%;
+        padding: 5px;
+    }
+    section #Aronsalo{
+        position: relative;
+        font-size: 4em;
+        top: 3.8em;
+        left: -41%;
+    }
+    section #alateksti{
+        position: relative;
+        top: 19em;
+        right: 481px;
+        background: black;
+        color: #fff;
+        border-radius: 6px;
+        padding: 7px;
+        height: 27px;
+        margin-bottom: 10em;
+        text-align: center;
+        width: 100%;
+        padding-right: 12em;
+    }
+    header ul li a{
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 100%;
+        font-weight: bold;
+    }
+    .box1 h1{
+        padding: 10px;
+    }
+    .box1 h2{
+        color: #fff;
+        font-size: 3em;
+        background: black;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .box2 h1{
+        padding: 10px;
+    }
+    .box2 h2{
+        color: #fff;
+        font-size: 3em;
+        background: black;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .box2 p{
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
+        padding: 10px;
+    }
+    .box3 h1{
+        padding: 10px;
+    }
+    .box1 p{
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
+        padding: 10px;
+    }
+    .box3 h2{
+        color: #fff;
+        font-size: 3em;
+        background: black;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .box3 ol li a{
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .box3 ol{
+        text-decoration: underline;
+        list-style: none;
+        font-weight: bold;
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
+    }
+    .Work h1{
+        color: rgb(255, 255, 255);
+        position: relative;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+        width: 8em;
+        left: 14%;
+        border-radius: 10px;
+    }
+    .aboutme{
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+        height: 34em;
+        margin-top: 60px;
+        width: 100%;
+    }
+    .aboutme .koodikuva{
+        z-index: -1;
+        margin-top: 24px;
+        position: relative;
+        opacity: 0.2;
+        height: 500px;
+        width: 500px;
+    }
+
+    .aboutme h2{
+        position: relative;
+        bottom: 20em;
+    }
+    .aboutme p{
+        position: relative;
+        bottom: 27em;
+    }
+    .footer{
+        margin-top: 40px;
+        background-color: black;
+        color: #fff;
+        padding-bottom: 19em;
+        position: relative;
+        width: 100%;
+    }
+    .footer .Contact{
+        font-size: 21px;
+        left: -1%;
+        position: relative;
+        top: 4em;
+        text-align: center;
+        padding: 10px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+        gap: 1em;
+        place-items: center;
+        position: relative;
+        left: 8%;
+        top: 10em;
+    }
 }
