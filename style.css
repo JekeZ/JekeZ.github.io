@@ -230,6 +230,21 @@
         position: relative;
         width: 100%;
     }
+    #logo{
+        width: 100px;
+        position: relative;
+        left: 82%;
+        top: 1em;
+    }
+    .footer a #logo{
+        position: relative;
+    }
+    #mail{
+        width: 83px;
+        position: relative;
+        left: 82%;
+        top: 0.5em;
+    }
     .footer .Contact{
         font-size: 21px;
         left: -1%;
