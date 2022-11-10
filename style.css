@@ -38,6 +38,7 @@
         color: rgb(0, 0, 0);
         z-index: 1000;
         cursor: pointer;
+
     }
     header ul li{
         text-decoration: none;
@@ -45,6 +46,73 @@
         color: rgb(0, 0, 0);
         z-index: 1000;
         min-width: 100px;
+    }
+    .btn1{
+        background-image: linear-gradient(
+            to right,
+            #a7a7a7,
+            #2b2b2b 50%,
+            #000 50%
+          );
+          background-size: 200% 100%;
+          background-position: -100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          transition: all 0.3s ease-in-out;
+    }
+    .btn1:before {
+        content: '';
+        background: #ffffff;
+        position: relative;
+    }
+
+    .btn1:hover {
+        background-position: 0;
+    }
+
+    .btn2{
+     background-image: linear-gradient(
+            to right,
+            #a7a7a7,
+            #2b2b2b 50%,
+            #000 50%
+          );
+          background-size: 200% 100%;
+          background-position: -100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          transition: all 0.3s ease-in-out;
+    }
+    .btn2:before {
+        content: '';
+        background: #ffffff;
+        position: relative;
+    }
+
+    .btn2:hover {
+        background-position: 0;
+    }
+
+    .btn3{
+    background-image: linear-gradient(
+        to right,
+        #a7a7a7,
+        #2b2b2b 50%,
+        #000 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+    .btn3:before {
+        content: '';
+        background: #ffffff;
+        position: relative;
+    }
+    .btn3:hover {
+        background-position: 0;
     }
     section{
         width: 100%;
@@ -86,8 +154,6 @@
         font-weight: bold;
     }
     .boxes{
-        scroll-snap-type: proximity;
-        overflow-y: scroll;
         display: flex;
         justify-content: space-around;
         z-index: 10;
@@ -104,11 +170,12 @@
         border-radius: 10px;
     }
     .box1 p{
-        font-size: 1em;
-        color: rgb(0, 0, 0);
+        font-size: 25px;
+        color: rgb(255, 255, 255);
         font-weight: bold;
         border-right: 10px;
-        border-style: inset;
+        background: linear-gradient(black, rgb(85, 85, 85));
+        border-radius: 10px;
     }
     .box1{
         text-align: center;
@@ -136,16 +203,13 @@
         font-size: 3em;
         border-radius: 10px;
     }
-    .box2 h2:hover{
-        transform: scale(1.1, 1.1);
-        transition: 0.5s;
-    }
     .box2 p{
-        font-size: 1em;
-        color: rgb(0, 0, 0);
+        font-size: 25px;
+        color: rgb(255, 255, 255);
         font-weight: bold;
         border-right: 10px;
-        border-style: inset;
+        background: linear-gradient(black, rgb(85, 85, 85));
+        border-radius: 10px;
     }
     .box3{
         text-align: center;
@@ -174,8 +238,9 @@
         font-size: 1em;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        border-right: 10px;
         border-style: inset;
+        font-size: 30px;
+        padding: 10px;
     }
     .Work h1{
         color: rgb(255, 255, 255);
@@ -187,13 +252,23 @@
         left: 43%;
         border-radius: 10px;
     }
-    .Work #video{
-        justify-content: center;
-        align-items: center;
+    .Work .videos{
+        justify-content: space-around;
         display: flex;
         position: relative;
-        padding: 10, 10, 10;
-        left: 33%;
+        
+    }
+    .Work #video2{
+        background-color: black;
+        position: relative;
+        padding: 25px;
+        border-radius: 10px;
+    }
+    .Work #video{
+        background-color: black;
+        position: relative;
+        padding: 25px;
+        border-radius: 10px;
     }
     .aboutme{
         background-color: black;
@@ -445,9 +520,7 @@
         left: 14%;
         border-radius: 10px;
     }
-    .Work #video{
-        justify-content: center;
-        align-items: center;
+    .Work .videos{
         display: flex;
         position: relative;
         padding: 10, 10, 10;
