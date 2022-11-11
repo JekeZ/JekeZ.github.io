@@ -153,12 +153,26 @@
         font-size: 100%;
         font-weight: bold;
     }
+    .paragraph1{
+        color: white;
+        position: relative;
+        right: 12.3em;
+        top: 10.6em;
+    }
+    .paragraph2{
+        color: white;
+        position: relative;
+        right: 12.3em;
+        top: 20.7em;
+    }
     .boxes{
         display: flex;
         justify-content: space-around;
         z-index: 10;
         color: rgb(0, 0, 0);
         padding: 2%;
+        background-color: #000;
+        background: linear-gradient(to right, rgb(36, 71, 231), rgb(236, 236, 236));
     }
     .box1 h2{
         color: #fff;
@@ -173,9 +187,7 @@
         font-size: 25px;
         color: rgb(255, 255, 255);
         font-weight: bold;
-        border-right: 10px;
-        background: linear-gradient(black, rgb(85, 85, 85));
-        border-radius: 10px;
+        border-left: 1px solid;
     }
     .box1{
         text-align: center;
@@ -195,6 +207,7 @@
         max-width: 400px;
         min-width: 400px;
         border-radius: 6px;
+        position: relative;
     }
     .box2 h2{
         color: #fff;
@@ -207,16 +220,15 @@
         font-size: 25px;
         color: rgb(255, 255, 255);
         font-weight: bold;
-        border-right: 10px;
-        background: linear-gradient(black, rgb(85, 85, 85));
-        border-radius: 10px;
+        border-left: 1px solid;
     }
     .box3{
         text-align: center;
         color: rgba(0, 0, 0, 0.459);
         max-width: 400px;
         min-width: 400px;
-
+        position: relative;
+        top: 51px;
     }
     .box3 h1{
         padding: 10px;
@@ -227,20 +239,28 @@
         background: black;
         border-radius: 10px;
     }
-    .box3 ol li a{
-        color: rgb(0, 0, 0);
-        text-align: center;
+    .link{
+        color: white;
+        position: relative;
+        right: 8.7em;
+        top: 0.9em;
     }
-    .box3 ol{
+    .link2{
+        color: white;
+        position: relative;
+        right: 8.7em;
+        top: 5.1em;
+    }
+    .box3 a{
         text-decoration: underline;
         list-style: none;
         font-weight: bold;
         font-size: 1em;
-        color: rgb(0, 0, 0);
+        color: rgb(50, 63, 243);
         font-weight: bold;
-        border-style: inset;
         font-size: 30px;
         padding: 10px;
+        border-left: 1px solid;
     }
     .Work h1{
         color: rgb(255, 255, 255);
