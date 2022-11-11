@@ -7,6 +7,7 @@
     <title>Jeren nettisivu</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
     <body>
         <a id="top"></a>
@@ -16,15 +17,15 @@
                 <li class="btn2"><a href="#contact">// Contact</a></li>
                 <li class="btn3"><a href="https://aronsalo.wordpress.com/">// Social</a></li>
             </ul>
-            <h1 id="alkuteksti">Portfolio </h1>
+            <h1 id="alkuteksti">< Portfolio ></h1>
         </header>
         <section>
-            <h2 id="Jere">JERE</h2>
-            <h2 id="Aronsalo">ARONSALO</h2>
-            <h3 id="alateksti">Satakunta University of Applied Sciences</h3>
+            <h2 id="Jere" data-aos="slide-left">JERE</h2>
+            <h2 id="Aronsalo" data-aos="slide-right">ARONSALO</h2>
+            <h3 id="alateksti" data-aos="slide-up">Satakunta University of Applied Sciences</h3>
         </section>
-        <div class="boxes">
-            <div class="box1">
+        <div class="boxes" data-aos="fade-in">
+            <div class="box1" data-aos="zoom-in">
                 <img class="kirja" src="book-icon-145.png" alt="kirja">
 
                 <div class="paragraph1">< p ></div>
@@ -34,7 +35,7 @@
                     Currently studying Business Information Systems in Satakunta University of Applied Sciences.
                 </p>
             </div>
-            <div class="box2">
+            <div class="box2" data-aos="zoom-in">
                 <img class="taidot" src="skills.png" alt="skills">
                 <div class="paragraph1">< p ></div>
                 <div class="paragraph2">< / p ></div>
@@ -50,7 +51,7 @@
                     Unreal Engine
                 </p>
             </div>
-            <div class="box3">
+            <div class="box3" data-aos="zoom-in">
                 <img class="github" src="github.png" alt="github">
                 <h2>My Work</h2>
                 <div class="link">< a ></div>
@@ -58,7 +59,7 @@
                 <a href="https://github.com/JekeZ" style="text-decoration: none;">Link to my GitHub</a>
             </div>
         </div>
-        <div class="Work">
+        <div class="Work" data-aos="fade-in">
             <h1>Projects</h1>
             <div class="videos">
                 <iframe id="video" width="650px" height="400" src="https://www.youtube.com/embed/8EkGH-SN4Is" 
@@ -68,31 +69,35 @@
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="aboutme">
+        <div class="aboutme" data-aos="fade-in">
             <img class="koodikuva" src="koodi.jpg" alt="koodikuva">
             <h2>About me</h2>
             <p>Born in Tampere, Finland 1997.<br>
             Currently studying Business Information Systems in Satakunta University of Applied Sciences in Pori.<br>
             In my freetime, I enjoy playing guitar, learning to code and edit videos using Movie Studio 17 Platinum.<br><br>
-            I have learned variety of languages, via school and freetime.<br> Mostly enjoying Python and making websites.
+            I have learned variety of programming languages, via school and freetime.<br> Mostly enjoying Python and making websites.
             I also know the basics of Blender.<br>
             Interested in Web designing, React, JavaScript, Blender and Video editing.
-            Would love to learn more</p>
+            </p>
         </div>
-        <footer class="footer">
+        <footer class="footer" data-aos="zoom-in">
                 <a href="https://www.linkedin.com/in/jere-aronsalo-466183228/">
                 <img id="logo" src="linkedin.png" alt="logo">
                 </a>
                 <img id="mail" src="mail.png" alt="mail">
 
-            <div id ="contact" class="Contact">Interested in working together? Let's Connect via LinkedIn or Email!</div>
+            <div id ="contact" class="Contact" data-aos="zoom-in">Interested in working together? Let's Connect via LinkedIn or Email!</div>
             <form action="https://formsubmit.co/7ff7f149a2557c9a6f555bfef53345df " method="post">
                 <input type="text" name="Name" placeholder="Full Name" required>
                 <input type="email" name="Email" placeholder="Email" required>
                 <textarea name="Message" id="" placeholder="Message" cols="30" rows="10" required></textarea>
                 <button type="submit">Send</button>
-                <h4>Thanks for viewing my portfolio website!</h4>
+                <h4 data-aos="zoom-in">Thanks for viewing my portfolio website!</h4>
             </form>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
