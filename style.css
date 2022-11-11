@@ -191,12 +191,20 @@
     }
     .box1{
         text-align: center;
-        /* border-radius: 20px; */
-        /* border-style: ridge; */
         color: rgba(0, 0, 0, 0.459);
         max-width: 400px;
         min-height: 100px;
         min-width: 400px;
+        position: relative;
+        bottom: 7em;
+    }
+    .kirja{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        left: 10em;
+        top: 11.3em;
     }
     .box1 h1{
         padding: 10px;
@@ -208,6 +216,7 @@
         min-width: 400px;
         border-radius: 6px;
         position: relative;
+        bottom: 4.6em;
     }
     .box2 h2{
         color: #fff;
@@ -222,13 +231,19 @@
         font-weight: bold;
         border-left: 1px solid;
     }
+    .taidot{
+        width: 68px;
+        position: relative;
+        top: 10.2em;
+        left: 9em;
+    }
     .box3{
         text-align: center;
         color: rgba(0, 0, 0, 0.459);
         max-width: 400px;
         min-width: 400px;
         position: relative;
-        top: 51px;
+        bottom: 11px;
     }
     .box3 h1{
         padding: 10px;
@@ -261,6 +276,12 @@
         font-size: 30px;
         padding: 10px;
         border-left: 1px solid;
+    }
+    .github{
+        width: 60px;
+        position: relative;
+        top: 7em;
+        left: 10em;
     }
     .Work h1{
         color: rgb(255, 255, 255);
