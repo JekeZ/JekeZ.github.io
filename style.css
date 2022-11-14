@@ -126,8 +126,8 @@
     section #Jere{
         position: relative;
         font-size: 5em;
-        top: 181px;
-        left: 8.6%;
+        top: 32%;
+        left: 184px;
     }
     section #Aronsalo{
         position: relative;
@@ -350,6 +350,7 @@
         padding-bottom: 19em;
         position: relative;
         width: 100%;
+        align-items: center;
     }
     #logo{
         width: 100px;
@@ -376,8 +377,7 @@
     form{
         display: flex;
         flex-direction: column;
-        width: 20em;
-        gap: 1em;
+        gap: 2em;
         place-items: center;
         position: relative;
         top: 10em;
@@ -481,29 +481,28 @@
     }
     section #Jere{
         position: relative;
-        font-size: 5em;
-        top: 179px;
-        left: 9.6%;
+        font-size: 4em;
+        top: 207px;
+        left: 11px;
     }
     section #Aronsalo{
         position: relative;
-        font-size: 4em;
-        top: 3.8em;
-        left: -41%;
+        font-size: 4.2em;
+        top: 250px;
+        right: 137px;
     }
     section #alateksti{
         position: relative;
-        top: 19em;
-        right: 481px;
+        top: 27em;
+        right: 489px;
         background: black;
         color: #fff;
         border-radius: 6px;
         padding: 7px;
-        height: 27px;
-        margin-bottom: 10em;
         text-align: center;
-        width: 100%;
-        padding-right: 12em;
+        max-height: 23px;
+        font-size: 14px;
+        min-inline-size: max-content;
     }
     header ul li a{
         text-decoration: none;
@@ -618,11 +617,11 @@
         background-color: black;
         color: #fff;
         text-align: center;
-        z-index: 1;
+        z-index: 10;
         position: relative;
-        height: 34em;
         margin-top: 60px;
         width: 100%;
+        height: 30em;
     }
 
     .aboutme h2{
@@ -631,7 +630,7 @@
     }
     .aboutme p{
         position: relative;
-        bottom: 29em;
+        bottom: 32em;
         padding: 20px;
     }
     .footer{
