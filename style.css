@@ -116,7 +116,7 @@
     }
     section{
         width: 100%;
-        position: static;
+        position: relative;
         width: -webkit-fill-available;
         display: flex;
         justify-content: left;
@@ -237,13 +237,15 @@
         top: 10.2em;
         left: 9em;
     }
-    .box3{
-        text-align: center;
-        color: rgba(0, 0, 0, 0.459);
-        max-width: 400px;
-        min-width: 400px;
-        position: relative;
-        bottom: 11px;
+    .box3 ol{
+        text-decoration: underline;
+        list-style: none;
+        font-weight: bold;
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-right: 10px;
+        border-style: inset;
     }
     .box3 h1{
         padding: 10px;
@@ -257,13 +259,13 @@
     .link{
         color: white;
         position: relative;
-        right: 8.7em;
+        right: 1.2em;
         top: 0.9em;
     }
     .link2{
         color: white;
         position: relative;
-        right: 8.7em;
+        right: 1.7em;
         top: 5.1em;
     }
     .box3 a{
@@ -281,14 +283,13 @@
         width: 60px;
         position: relative;
         top: 7em;
-        left: 10em;
+        left: 13em;
     }
     .Work h1{
         color: rgb(255, 255, 255);
         position: relative;
         justify-content: center;
         display: flex;
-        background-color: black;
         width: 8em;
         left: 43%;
         border-radius: 10px;
@@ -304,12 +305,16 @@
         position: relative;
         padding: 25px;
         border-radius: 10px;
+        width: 650px; 
+        height: 400px;
     }
     .Work #video{
         background-color: black;
         position: relative;
         padding: 25px;
         border-radius: 10px;
+        width: 650px; 
+        height: 400px;
     }
     .aboutme{
         background-color: black;
@@ -375,8 +380,8 @@
         gap: 1em;
         place-items: center;
         position: relative;
-        left: 41%;
         top: 10em;
+        text-align-last: center;
     }
     input, textarea{
         padding: 1.5em;
@@ -390,11 +395,29 @@
 
 
 @media screen and (min-width: 200px) and (max-width: 768px){
-    .koodikuva{
+    .aboutme .koodikuva{
+        z-index: -1;
         margin-top: 24px;
         position: relative;
+        opacity: 0.2;
         height: 100%;
         width: 100%;
+    }
+    #logo{
+    width: 90px;
+    position: relative;
+    left: 18%;
+    top: 17em;
+    }
+    .taidot{
+      visibility: hidden;
+      width: 10px;
+    }
+    #mail{
+        width: 81px;
+        position: relative;
+        left: 32%;
+        top: 16.5em;
     }
     section{
         width: 100%;
@@ -490,8 +513,18 @@
         font-size: 100%;
         font-weight: bold;
     }
+    .boxes{
+        color: rgb(0, 0, 0);
+        background-color: #000;
+        background: linear-gradient(to right, rgb(36, 71, 231), rgb(236, 236, 236));
+        padding: 20px;
+    }
     .box1 h1{
         padding: 10px;
+    }
+    .kirja{
+        visibility: hidden;
+        width: 10px;
     }
     .box1 h2{
         color: #fff;
@@ -511,23 +544,17 @@
         text-align: center;
     }
     .box2 p{
-        font-size: 1em;
-        color: rgb(0, 0, 0);
+        font-size: 25px;
+        color: rgb(255, 255, 255);
         font-weight: bold;
-        border-right: 10px;
-        border-style: inset;
-        padding: 10px;
     }
     .box3 h1{
         padding: 10px;
     }
     .box1 p{
-        font-size: 1em;
-        color: rgb(0, 0, 0);
+        font-size: 25px;
+        color: rgb(255, 255, 255);
         font-weight: bold;
-        border-right: 10px;
-        border-style: inset;
-        padding: 10px;
     }
     .box3 h2{
         color: #fff;
@@ -536,9 +563,16 @@
         border-radius: 10px;
         text-align: center;
     }
-    .box3 ol li a{
-        color: rgb(0, 0, 0);
-        text-align: center;
+    .box3 a{
+        text-decoration: underline;
+        list-style: none;
+        font-weight: bold;
+        font-size: 1em;
+        color: rgb(50, 63, 243);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        border-left: 1px solid;
     }
     .box3 ol{
         text-decoration: underline;
@@ -555,16 +589,31 @@
         position: relative;
         justify-content: center;
         display: flex;
-        background-color: rgba(0, 0, 0, 0.219);
+        background-color: rgb(0, 0, 0);
         width: 8em;
         left: 14%;
         border-radius: 10px;
     }
     .Work .videos{
-        display: flex;
         position: relative;
         padding: 10, 10, 10;
         width: 100%;
+    }
+    .Work #video2{
+        background-color: black;
+        position: relative;
+        padding: 25px;
+        border-radius: 10px;
+        width: 85%;
+        height: 85%;
+    }
+    .Work #video{
+        background-color: black;
+        position: relative;
+        padding: 25px;
+        border-radius: 10px;
+        width: 85%;
+        height: 85%;
     }
     .aboutme{
         background-color: black;
@@ -583,7 +632,8 @@
     }
     .aboutme p{
         position: relative;
-        bottom: 27em;
+        bottom: 29em;
+        padding: 20px;
     }
     .footer{
         margin-top: 40px;
@@ -610,5 +660,27 @@
         position: relative;
         left: 8%;
         top: 10em;
+    }
+    .paragraph1{
+        color: white;
+        position: relative;
+        right: 12.3em;
+        top: 10.6em;
+    }
+    .paragraph2{
+        color: white;
+        position: relative;
+        right: 12.3em;
+        top: 20.7em;
+    }
+    .link{
+        visibility: hidden;
+    }
+    .link2{
+        visibility: hidden;
+    }
+    .github{
+        visibility: hidden;
+        overflow: hidden;
     }
 }
