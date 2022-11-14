@@ -409,6 +409,28 @@
     left: 18%;
     top: 17em;
     }
+    .btn1{
+        background-image: linear-gradient(
+            to right,
+            #a7a7a7,
+            #2b2b2b 50%,
+            #000 50%
+          );
+          background-size: 200% 100%;
+          background-position: -100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          transition: all 0.3s ease-in-out;
+    }
+    .btn1:before {
+        content: '';
+        background: #ffffff;
+        position: relative;
+    }
+
+    .btn1:hover {
+        background-position: 0;
+    }
     .taidot{
       visibility: hidden;
       width: 10px;
