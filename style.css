@@ -397,6 +397,10 @@
         width: 7em;
         border-color: white;
     }
+    .totop{
+        color: white;
+        margin-bottom: -82px;
+    }
 }
 
 
@@ -534,6 +538,7 @@
         max-height: 23px;
         font-size: 14px;
         min-inline-size: max-content;
+        padding-right: 4em;
     }
     header ul li a{
         text-decoration: none;
