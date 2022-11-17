@@ -318,7 +318,7 @@
         height: 400px;
     }
     .aboutme{
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         color: #fff;
         text-align: center;
         z-index: 1;
@@ -415,12 +415,14 @@
         height: 100%;
         width: 100%;
     }
-    #logo{
-    width: 90px;
-    position: relative;
-    left: 18%;
-    top: 17em;
+
+    #logo {
+        width: 90px;
+        position: relative;
+        left: 18%;
+        top: 16em;
     }
+
     .btn1{
         background-image: linear-gradient(
             to right,
@@ -451,7 +453,7 @@
         width: 79px;
         position: relative;
         left: 36%;
-        top: 16.6em;
+        top: 15.6em;
     }
     section{
         width: 100%;
@@ -705,5 +707,9 @@
         top: 6.5em;
         left: 17em;
         width: 40px;
+    }
+    .totop{
+        color: white;
+        margin-bottom: -82px;
     }
 }
