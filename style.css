@@ -497,9 +497,9 @@
     }
     section #Jere{
         position: relative;
-        font-size: 4em;
-        top: 207px;
-        left: 11px;
+        font-size: 4.2em;
+        top: 199px;
+        left: 15px;
     }
     section #Aronsalo{
         position: relative;
@@ -630,12 +630,12 @@
 
     .aboutme h2{
         position: relative;
-        bottom: 20em;
+        bottom: 21em;
     }
     .aboutme p{
         position: relative;
-        bottom: 32em;
-        padding: 20px;
+        bottom: 33.8em;
+        padding: 18px;
     }
     .footer{
         margin-top: 40px;
