@@ -128,7 +128,6 @@
         width: 100%;
         height: 100%;
         position: absolute;
-
     }
     #Jere{
         font-size: 5em;
@@ -362,8 +361,26 @@
         position: relative;
         bottom: 27em;
     }
+    /* .info {
+        left: 52%;
+        position: relative;
+        z-index: 1;
+        background-color: black;
+        color: white;
+        padding-bottom: 20em;
+    } */
+    .row {
+        display: flex;
+        /* margin-top: 20px; */
+      }
+      
+      .column {
+        flex: 50%;
+        text-align: center;
+        padding: 10em;
+        font-size: 20px;
+      }
     .footer{
-        margin-top: 40px;
         background-color: black;
         color: #fff;
         padding-bottom: 19em;
@@ -401,6 +418,7 @@
         position: relative;
         top: 10em;
         text-align-last: center;
+        margin-bottom: -82px;
     }
     input, textarea{
         padding: 1.5em;
@@ -417,7 +435,11 @@
     }
     .totop{
         color: white;
-        margin-bottom: -82px;
+        top: 40px;
+        position: relative;
+    }
+    .lopputeksti{
+        margin-bottom: 10px;
     }
 }
 
@@ -655,7 +677,7 @@
     .aboutme p{
         position: relative;
         bottom: 33.8em;
-        padding: 18px;
+        padding: 1em;
     }
     .footer{
         margin-top: 40px;
@@ -709,6 +731,20 @@
     }
     .totop{
         color: white;
-        margin-bottom: -82px;
+        top: 40px;
     }
+    .tausta{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+    }
+    .column {
+        padding: 1em;
+        font-size: 20px;
+}
+    .lopputeksti{
+        margin-bottom: 1px;
+        padding: 0.5em;
+        text-align: center;
 }
