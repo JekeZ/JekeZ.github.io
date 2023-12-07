@@ -20,11 +20,45 @@
             <img class="JA" src="cropped.png" alt="logo">
             <h1 id="alkuteksti">< Portfolio ></h1>
         </header>
-        <section>
-            <h2 id="Jere" data-aos="slide-left">JERE</h2>
-            <h2 id="Aronsalo" data-aos="slide-right">ARONSALO</h2>
-            <h3 id="alateksti" data-aos="slide-up">Satakunta University of Applied Sciences<br></h3>
-            <img class="tausta" src="tausta.jpg" data-aos="fade-in">
+        <section style="aspect-ratio: 16/9;">
+            <div id="sliderplayer-0" style="width: 100%; height: 100%;" ></div>
+            <script async src="https://www.youtube.com/iframe_api"></script>
+            <script>
+                // Array to store player instances
+                var players = [];
+        
+                function onYouTubeIframeAPIReady() {
+                    var playerIds = ["sliderplayer-0"];
+        
+                    for (var i = 0; i < playerIds.length; i++) {
+                        players[i] = new YT.Player(playerIds[i], {
+                            videoId: 'TgtCgUnLWec', // You can also set the videoId directly
+                            events: {
+                                'onReady': function (event) {
+                                    // Set up player settings
+                                    event.target.mute();
+                                    players.mute();
+                                    event.target.playVideo();
+                                    players.playVideo();
+                                }
+                            },
+                            playerVars: {
+                                autoplay: 1,
+                                controls: 0,
+                                showinfo: 1,
+                                modestbranding: 1,
+                                loop: 1,
+                                fs: 0,
+                                cc_load_policy: 0,
+                                iv_load_policy: 3,
+                                autohide: 1,
+                                playsinline: 1,
+                                mute: 1
+                            }
+                        });
+                    }
+                }
+            </script>
         </section>
         <div class="boxes" data-aos="fade-in">
             <div class="box1" data-aos="zoom-in">
