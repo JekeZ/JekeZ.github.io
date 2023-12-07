@@ -114,6 +114,9 @@
     .btn3:hover {
         background-position: 0;
     }
+    .JA{
+        height: 4em;
+    }
     section{
         width: 100%;
         flex-direction: column;
@@ -123,6 +126,11 @@
         height: 39em;
         align-items: start;
         margin-bottom: 35px;
+    }
+    .titlevideo{
+        position: relative;
+        width: 100%;
+        z-index: 2;
     }
     .tausta{
         width: 100%;
@@ -377,8 +385,9 @@
       .column {
         flex: 50%;
         text-align: center;
-        padding: 10em;
-        font-size: 20px;
+        padding: 6em;
+        font-size: 16px;
+        padding-bottom: 6em;
       }
     .footer{
         background-color: black;
@@ -747,4 +756,5 @@
         margin-bottom: 1px;
         padding: 0.5em;
         text-align: center;
+    }
 }
