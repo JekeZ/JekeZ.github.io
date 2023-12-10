@@ -19,7 +19,7 @@
     }
     header{
         font-family: 'Poppins';
-        font-size: 22px;
+        font-size: 17px;
         position: sticky;
         top: 0;
         left: 0;
@@ -33,6 +33,7 @@
         -webkit-backdrop-filter: blur(5px);
         border-bottom: groove;
         border: 1px solid rgba(255, 255, 255, 0.3);
+        max-height: 92px;
     }
     header ul{
         display: flex;
@@ -118,7 +119,7 @@
         background-position: 0;
     }
     .JA{
-        height: 4em;
+        transform: scale(0.5);
     }
     section{
         width: 100%;
@@ -347,6 +348,8 @@
         height: 400px;
     }
     .aboutme{
+        flex: 50%;
+        display: flex;
         background-color: rgb(0, 0, 0);
         color: #fff;
         text-align: center;
@@ -355,23 +358,23 @@
         height: 34em;
         margin-top: 60px;
         width: 100%;
+        max-height: 30em;
     }
     .aboutme .koodikuva{
         z-index: -1;
-        margin-top: 24px;
         position: relative;
-        opacity: 0.2;
-        height: 500px;
-        width: 600px;
+        opacity: 0.15;
+        height: 106%;
+        width: 157%;
+        bottom: 50px;
     }
 
     .aboutme h2{
         position: relative;
-        bottom: 20em;
+        /* bottom: 20em; */
     }
     .aboutme p{
         position: relative;
-        bottom: 27em;
     }
     /* .info {
         left: 52%;
@@ -524,6 +527,7 @@
         z-index: 1000;
         background-color: #fff;
         border-bottom: groove;
+        max-height: 100px;
     }
     header ul{
         display: flex;
