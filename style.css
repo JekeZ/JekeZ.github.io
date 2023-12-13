@@ -355,10 +355,10 @@
         text-align: center;
         z-index: 1;
         position: relative;
-        height: 34em;
         margin-top: 60px;
         width: 100%;
-        max-height: 30em;
+        max-height: 40em;
+        justify-content: space-evenly;
     }
     .aboutme .koodikuva{
         z-index: -1;
@@ -371,10 +371,11 @@
 
     .aboutme h2{
         position: relative;
-        /* bottom: 20em; */
     }
     .aboutme p{
         position: relative;
+        margin-top: 2%;
+        max-width: 35em;
     }
     /* .info {
         left: 52%;
