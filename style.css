@@ -39,7 +39,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         z-index: 1000;
         cursor: pointer;
 
@@ -47,7 +47,7 @@
     header ul li{
         text-decoration: none;
         list-style: none;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         z-index: 1000;
         min-width: 100px;
     }
@@ -125,13 +125,22 @@
         display: flex;
         height: 39em;
         align-items: start;
-        margin-bottom: 35px;
+        overflow: hidden;
     }
     .titlevideo{
         position: relative;
         width: 100%;
         z-index: 2;
         height: 100%;
+    }
+    #sliderplayer-0 {
+        position: absolute;
+        width: 114%;
+        height: 170%;
+        bottom: 0px;
+        left: 0;
+        margin-left: -8em;
+        top: -42%;
     }
     .tausta{
         width: 100%;
@@ -310,6 +319,7 @@
         position: relative;
         top: 7em;
         left: 10em;
+        color: white;
     }
     .Work h1{
         color: rgb(255, 255, 255);
