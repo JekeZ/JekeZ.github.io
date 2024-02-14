@@ -39,7 +39,7 @@
             <div id="sliderplayer-0"></div>
             <script async src="https://www.youtube.com/iframe_api"></script>
             <script>
-                // Array to store player instances
+                
                 var players = [];
         
                 function onYouTubeIframeAPIReady() {
@@ -47,7 +47,7 @@
         
                     for (var i = 0; i < playerIds.length; i++) {
                         players[i] = new YT.Player(playerIds[i], {
-                            videoId: 'TgtCgUnLWec', // You can also set the videoId directly
+                            videoId: 'TgtCgUnLWec',
                             events: {
                                 'onReady': function (event) {
                                     // Set up player settings
@@ -113,7 +113,7 @@
         <div class="Work" data-aos="fade-in">
             <h1>Projects</h1>
             <div class="videos">
-                <iframe id="video" src="https://www.youtube.com/embed/8EkGH-SN4Is" 
+                <iframe id="video" src="https://www.youtube-nocookie.com/embed/8EkGH-SN4Is" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe id="video2" width="650px" height="400" src="https://www.youtube.com/embed/7yS3nKvleR8" title="YouTube video player" 
