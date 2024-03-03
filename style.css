@@ -157,19 +157,14 @@
         left: 0;
         margin-left: -8em;
         top: -42%;
+        z-index: 2;
     }
     .tausta{
         width: 100%;
         height: 100%;
         position: absolute;
     }
-    .Jere{
-        width: 416px;
-        height: 442px;
-        border-radius: 54%;
-        margin-top: 2em;
-        background-color: white;
-    }
+
     #alateksti{
         position: relative;
         background: black;
@@ -213,6 +208,18 @@
         /* background: linear-gradient(to right, rgb(64 52 81), rgb(236, 236, 236)); */
         box-shadow: 0 0px 30px rgba(64 52 81 / 38%);
     }
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 540px;
+        background: rgb(0 0 0 / 81%);
+        z-index: 1;
+    }
+    .background1{
+        position: absolute;
+        width: 100%;
+        height: 540px;
+    }
     .box1 h2{
         color: #fff;
         background: rgb(64 52 81 / 38%);
@@ -236,6 +243,7 @@
         min-width: 400px;
         position: relative;
         bottom: 5.9em;
+        z-index: 2;
     }
     .kirja{
         width: 100px;
@@ -256,6 +264,7 @@
         border-radius: 6px;
         position: relative;
         bottom: 3.5em;
+        z-index: 2;
     }
     .box2 h2{
         color: #fff;
@@ -288,6 +297,7 @@
         border-radius: 6px;
         position: relative;
         bottom: 4px;
+        z-index: 2;
     }
     .box3 h2{
         color: #fff;
@@ -377,12 +387,51 @@
         overflow-y: clip;
         font-size: 12px;
     }
+    .Jere{
+        width: 416px;
+        height: 100%;
+        /* border-radius: 54%; */
+        margin-top: 2em;
+        background-color: white;
+        box-shadow: inset 0px 100px 400px 10px black;
+        z-index: 2;
+        
+    }
+    .overlay4{
+        position: absolute;
+        width: 100%;
+        height: 50em;
+        background: rgb(0 0 0 / 66%);
+        z-index: 1;
+    }
+    .background4{
+        position: absolute;
+        width: 100%;
+        height: 50em;
+        z-index: 0;
+    }
+    .sektio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .background5{
+        position: absolute;
+        height: 50em;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0px 100px 400px 10px black;
+        z-index: 1;
+    }
 
     .aboutme h2{
         position: relative;
         color: white;
         margin-bottom: 2%;
         font-size: 1.2vw;
+        z-index: 2;
     }
     .aboutme p{
         position: relative;
@@ -416,16 +465,39 @@
     .footer{
         background-color: black;
         color: white;
-        padding-bottom: 19em;
+        padding-bottom: 12em;
         position: relative;
         width: 100%;
-        align-items: center;
     }
+    .overlay2{
+        position: absolute;
+        width: 100%;
+        height: 60em;
+        background: rgb(0 0 0 / 66%);
+        z-index: 2;
+        box-shadow: inset 0px 100px 400px 10px black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #contact{
+        z-index: 2;
+        top: 10px;
+    }
+    .background3{
+        position: absolute;
+        width: 80%;
+        height: 60em;
+        z-index: 0;
+        opacity: 55%;
+    }
+
     #logo{
         width: 100px;
         position: relative;
         left: 82%;
         top: 1em;
+        z-index: 2;
     }
     .footer a #logo{
         position: relative;
@@ -435,6 +507,7 @@
         position: relative;
         left: 82%;
         top: 0.4em;
+        z-index: 2;
     }
     .footer .Contact{
         font-size: 30px;
@@ -446,12 +519,13 @@
     form{
         display: flex;
         flex-direction: column;
-        gap: 2em;
+        gap: 4em;
         place-items: center;
         position: relative;
-        top: 10em;
+        top: 6em;
         text-align-last: center;
         margin-bottom: -82px;
+        z-index: 2;
     }
     input, textarea{
         padding: 1.5em;
@@ -474,6 +548,7 @@
     .lopputeksti{
         margin-bottom: 10px;
         color: white;
+        z-index: 2;
     }
 }
 
@@ -817,6 +892,22 @@
         height: 0px;
       }
       .Jere{
+        visibility: hidden;
+        width: 0;
+    }
+    .background1{
+        visibility: hidden;
+        width: 0;
+    }
+    .background3{
+        visibility: hidden;
+        width: 0;
+    }
+    .background4{
+        visibility: hidden;
+        width: 0;
+    }
+    .background5{
         visibility: hidden;
         width: 0;
     }
