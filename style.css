@@ -655,7 +655,7 @@
     }
     header{
         font-family: 'Poppins';
-        font-size: 18px;
+        font-size: 13px;
         position: sticky;
         top: 0;
         left: 0;
@@ -886,13 +886,13 @@
     .paragraph1{
         color: #cfca8c;
         position: relative;
-        right: 11.3em;
+        right: 49%;
         top: 10.6em;
     }
     .paragraph2{
         color: #cfca8c;
         position: relative;
-        right: 11.3em;
+        right: 49%;
         top: 20.7em;
     }
     .link{
