@@ -537,10 +537,10 @@
         font-size: 1vw;
       }
     .background3{
-        width: 52%;
+        width: 50%;
         height: 100%;
         position: relative;
-        left: 6%;
+        left: 7%;
     }
     .form {
         flex: 50%;
