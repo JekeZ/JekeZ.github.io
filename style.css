@@ -506,7 +506,7 @@
         position: relative;
         margin-top: 3em;
       }
-    .footer{
+    /* .footer{
         background-color: black;
         color: white;
         padding-bottom: 12em;
@@ -527,15 +527,28 @@
     #contact{
         z-index: 2;
         top: 10px;
-    }
+    } */
+    .footer {
+        display: flex;
+        height: 50em;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 42vw;
+        font-size: 1vw;
+      }
     .background3{
-        position: absolute;
-        width: 80%;
-        height: 60em;
-        z-index: 0;
-        opacity: 55%;
+        width: 52%;
+        height: 100%;
+        position: relative;
+        left: 6%;
     }
-
+    .form {
+        flex: 50%;
+        text-align: center;
+        padding-left: 2em;
+        padding-right: 2em;
+        position: relative;
+    }
     #logo{
         width: 100px;
         position: relative;
@@ -566,9 +579,8 @@
         gap: 4em;
         place-items: center;
         position: relative;
-        top: 6em;
+        top: 4em;
         text-align-last: center;
-        margin-bottom: -82px;
         z-index: 2;
     }
     input, textarea{
