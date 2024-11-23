@@ -459,10 +459,11 @@
         justify-content: center;
         align-items: center;
     }
+    /* This was modified in 23.11.2024 for the top picture */
     .background5{
         position: absolute;
-        height: 50em;
-        width: 75%;
+        height: 60em;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
